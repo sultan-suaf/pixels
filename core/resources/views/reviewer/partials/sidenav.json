@@ -1,0 +1,66 @@
+{
+    "dashboard": {
+        "keyword": [
+            "Dashboard",
+            "Home",
+            "Panel",
+            "Admin",
+            "Control center",
+            "Overview",
+            "Main hub",
+            "Management hub",
+            "Administrative hub",
+            "Central hub",
+            "Command center",
+            "Administrator portal",
+            "Centralized interface",
+            "Admin console",
+            "Management dashboard",
+            "Main screen",
+            "Administrative dashboard",
+            "Command dashboard",
+            "Main control panel"
+        ],
+        "title": "Dashboard",
+        "icon": "las la-home",
+        "route_name": "reviewer.dashboard",
+        "menu_active": "reviewer.dashboard"
+    },
+    "pending_images": {
+        "keyword": [
+            "Pending Images",
+            "Images",
+            "Pending"
+        ],
+        "title": "Pending Images",
+        "icon": "las la-spinner",
+        "menu_active": "reviewer.images.pending",
+        "route_name": "reviewer.images.pending",
+        "counter": "pendingPhoto"
+    },
+    "approved_images": {
+        "keyword": [
+            "Approved Images",
+            "Images",
+            "Approved"
+        ],
+        "title": "Approved Images",
+        "icon": "las la-check-circle",
+        "menu_active": "reviewer.images.approved",
+        "route_name": "reviewer.images.approved"
+     
+    },
+    "rejected_images": {
+        "keyword": [
+            "Rejected Images",
+            "Images",
+            "rejected"
+        ],
+        "title": "rejected Images",
+        "icon": "las la-times-circle",
+        "menu_active": "reviewer.images.rejected",
+        "route_name": "reviewer.images.rejected"
+     
+    }
+
+}

@@ -1,0 +1,240 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "images": {
+                "left_image": {
+                    "size": "1100x1140"
+                },
+                "right_image": {
+                    "size": "750x500"
+                }
+            },
+            "title": "text"
+        }
+    },
+    "banner_two": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Two Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "about": {
+        "builder": true,
+        "name": "About Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "800x570"
+                }
+            },
+            "title": "text",
+            "subtitle": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "service": {
+        "builder": true,
+        "name": "Service Section",
+        "content": {
+            "title": "text",
+            "subtitle": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icon",
+        "element": {
+            "name": "text",
+            "url": "text",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "cta": {
+        "builder": true,
+        "name": "CTA Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1700x700"
+                }
+            },
+            "title": "text",
+            "subtitle": "text",
+            "button_text": "text",
+            "button_url": "text"
+        }
+    },
+    "seller_join": {
+        "builder": true,
+        "name": "Seller Join Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "440x350"
+                }
+            },
+            "title": "text",
+            "description": "text",
+            "button_text": "text",
+            "button_url": "text"
+        }
+    },
+    "contact": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Page",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x800"
+                }
+            },
+            "form_title": "text",
+            "mobile": "text",
+            "address": "text",
+            "email": "text"
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "heading": "text",
+            "title": "text",
+            "description": "textarea"
+        }
+    },
+    "login": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Login Page",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x800"
+                },
+                "image": {
+                    "size": "690x550"
+                }
+            },
+            "form_title": "text"
+        }
+    },
+    "register": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Register Page",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x800"
+                },
+                "image": {
+                    "size": "690x550"
+                }
+            },
+            "form_title": "text"
+        }
+    },
+    "plan": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Plan Section",
+        "content": {
+            "title": "text",
+            "subtitle": "text"
+        }
+    },
+    "collection": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Collection",
+        "content": {
+            "title": "text",
+            "subtitle": "text"
+        }
+    },
+    "contributor": {
+        "builder": true,
+        "name": "Contributor Section",
+        "content": {
+            "title": "text",
+            "subtitle": "text"
+        }
+    },
+    "member": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Member Page",
+        "content": {
+            "title": "text"
+        }
+    },
+    "premium": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Premium Image page",
+        "content": {
+            "title": "text"
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "slug":"title",
+            "details": "textarea-nic",
+            "modal": false,
+            "seo":true
+        }
+    },
+    "kyc": {
+        "builder": true,
+        "no_selection": true,
+        "name": "KYC Content",
+        "content": {
+            "required": "text",
+            "pending": "text",
+            "reject": "text"
+        }
+    },
+    "default_images": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Default Images",
+        "content": {
+            "images": {
+                "cover_photo": {
+                    "size": "1920x450"
+                },
+                "loading_image": {
+                    "size": "350x230"
+                }
+            }
+        }
+    }
+}
+
+
+

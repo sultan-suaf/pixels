@@ -1,0 +1,841 @@
+{
+    "dashboard": {
+        "keyword": [
+            "Dashboard",
+            "Home",
+            "Panel",
+            "Admin",
+            "Control center",
+            "Overview",
+            "Main hub",
+            "Management hub",
+            "Administrative hub",
+            "Central hub",
+            "Command center",
+            "Administrator portal",
+            "Centralized interface",
+            "Admin console",
+            "Management dashboard",
+            "Main screen",
+            "Administrative dashboard",
+            "Command dashboard",
+            "Main control panel"
+        ],
+        "title": "Dashboard",
+        "icon": "las la-home",
+        "route_name": "admin.dashboard",
+        "menu_active": "admin.dashboard"
+    },
+    "manage_reviewer": {
+        "title": "Manage Reviewer",
+        "icon": "las la-user-cog",
+        "menu_active": "admin.reviewers.*",
+        "route_name": "admin.reviewers.all",
+        "keyword": [
+            "Manage Reviewer",
+            "Reviewers",
+            "Reviewer Management",
+            "User Reviewers",
+            "Admin Reviewers"
+        ]
+    },
+    "ads": {
+        "title": "Ads",
+        "icon": "lab la-adversal",
+        "menu_active": "admin.ads.all",
+        "route_name": "admin.ads.all",
+        "keyword": [
+            "Ads",
+            "Advertisements",
+            "Ad Management",
+            "Marketing",
+            "Promotions",
+            "Banners",
+            "Campaigns"
+        ]
+    },
+    "category": {
+        "title": "Category",
+        "icon": "las la-list",
+        "menu_active": "admin.category.all",
+        "route_name": "admin.category.all",
+        "keyword": [
+            "Category",
+            "Categories",
+            "Category Management"
+        ]
+    },
+    "file_type": {
+        "title": "File Type",
+        "icon": "las la-folder-plus",
+        "menu_active": "admin.filetype.all",
+        "route_name": "admin.filetype.all",
+        "keyword": [
+            "File Type",
+            "File Types",
+            "File Management",
+            "Document Types",
+            "File Categories"
+        ]
+    },
+    "manage_colors": {
+        "title": "Manage Colors",
+        "icon": "las la-tint",
+        "menu_active": "admin.color.all",
+        "route_name": "admin.color.all",
+        "keyword": [
+            "Manage Colors",
+            "Color Management",
+            "Colors",
+            "Palette",
+            "Color Settings"
+        ]
+    },
+    "predefined_reason": {
+        "title": "Predefined Reason",
+        "icon": "las la-list-ol",
+        "menu_active": "admin.manage.reason.all",
+        "route_name": "admin.manage.reason.all",
+        "keyword": [
+            "Predefined Reason",
+            "Reasons",
+            "Reason Management",
+            "Predefined Responses",
+            "Response Reasons",
+            "Reason Templates"
+        ]
+    },
+    "manage_plan": {
+        "title": "Manage Plan",
+        "icon": "las la-stream",
+        "menu_active": "admin.plan.all",
+        "route_name": "admin.plan.all",
+        "keyword": [
+            "Manage Plan",
+            "Plans",
+            "Plan Management",
+            "Subscription Plans",
+            "Service Plans",
+            "Membership Plans"
+        ]
+    },
+    "manage_users": {
+        "title": "Manage Users",
+        "icon": "las la-users",
+        "counters": [
+            "bannedUsersCount",
+            "emailUnverifiedUsersCount",
+            "mobileUnverifiedUsersCount",
+            "kycUnverifiedUsersCount",
+            "kycPendingUsersCount"
+        ],
+        "menu_active": "admin.users*",
+        "submenu": [
+            {
+                "keyword": [
+                    "active users",
+                    "Manage Users",
+                    "User management",
+                    "User control",
+                    "User status",
+                    "User activity",
+                    "User analytics"
+                ],
+                "title": "Active Users",
+                "route_name": "admin.users.active",
+                "menu_active": "admin.users.active"
+            },
+            {
+                "keyword": [
+                    "banned users",
+                    "Manage Users",
+                    "User management",
+                    "Account bans",
+                    "User activity"
+                ],
+                "title": "Banned Users",
+                "route_name": "admin.users.banned",
+                "menu_active": "admin.users.banned",
+                "counter": "bannedUsersCount"
+            },
+            {
+                "keyword": [
+                    "email unverified users",
+                    "Manage Users",
+                    "User verification",
+                    "User authentication",
+                    "User management"
+                ],
+                "title": "Email Unverified",
+                "route_name": "admin.users.email.unverified",
+                "menu_active": "admin.users.email.unverified",
+                "counter": "emailUnverifiedUsersCount"
+            },
+            {
+                "keyword": [
+                    "mobile unverified users",
+                    "Manage Users",
+                    "User verification",
+                    "User authentication",
+                    "User management"
+                ],
+                "title": "Mobile Unverified",
+                "route_name": "admin.users.mobile.unverified",
+                "menu_active": "admin.users.mobile.unverified",
+                "counter": "mobileUnverifiedUsersCount"
+            },
+            {
+                "keyword": [
+                    "kyc unverified users",
+                    "Manage Users",
+                    "User verification",
+                    "User authentication",
+                    "User management"
+                ],
+                "title": "KYC Unverified",
+                "route_name": "admin.users.kyc.unverified",
+                "menu_active": "admin.users.kyc.unverified",
+                "counter": "kycUnverifiedUsersCount"
+            },
+            {
+                "keyword": [
+                    "kyc pending users",
+                    "Manage Users",
+                    "User verification",
+                    "User authentication",
+                    "User management"
+                ],
+                "title": "KYC Pending",
+                "route_name": "admin.users.kyc.pending",
+                "menu_active": "admin.users.kyc.pending",
+                "counter": "kycPendingUsersCount"
+            },
+            {
+                "keyword": [
+                    "with balance users",
+                    "Manage Users",
+                    "User management",
+                    "User activity",
+                    "Account management"
+                ],
+                "title": "With Balance",
+                "route_name": "admin.users.with.balance",
+                "menu_active": "admin.users.with.balance"
+            },
+            {
+                "keyword": [
+                    "all users users",
+                    "Manage Users",
+                    "User management",
+                    "User control",
+                    "User activity",
+                    "User analytics"
+                ],
+                "title": "All Users",
+                "route_name": "admin.users.all",
+                "menu_active": "admin.users.all"
+            },
+            {
+                "keyword": [
+                    "send notification users",
+                    "Manage Users",
+                    "User notifications",
+                    "User management",
+                    "User activity"
+                ],
+                "title": "Send Notification",
+                "route_name": "admin.users.notification.all",
+                "menu_active": "admin.users.notification.all"
+            }
+        ]
+    },
+    "manage_images": {
+        "title": "Manage Images",
+        "icon": "las la-photo-video",
+        "menu_active": "admin.images*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Pending Images",
+                    "Unapproved Images",
+                    "Images in Review",
+                    "Awaiting Approval"
+                ],
+                "title": "Pending Images",
+                "route_name": "admin.images.pending",
+                "menu_active": "admin.images.pending"
+            },
+            {
+                "keyword": [
+                    "Rejected Images",
+                    "Denied Images",
+                    "Declined Images",
+                    "Unapproved Images"
+                ],
+                "title": "Rejected Images",
+                "route_name": "admin.images.rejected",
+                "menu_active": "admin.images.rejected"
+            },
+            {
+                "keyword": [
+                    "Approved Images",
+                    "Verified Images",
+                    "Accepted Images",
+                    "Confirmed Images"
+                ],
+                "title": "Approved Images",
+                "route_name": "admin.images.approved",
+                "menu_active": "admin.images.approved"
+            },
+            {
+                "keyword": [
+                    "All Images",
+                    "Images",
+                    "Image Management",
+                    "Image Gallery"
+                ],
+                "title": "All Images",
+                "route_name": "admin.images.all",
+                "menu_active": "admin.images.all"
+            }
+        ]
+    },
+    "deposits": {
+        "title": "Deposits",
+        "icon": "las la-file-invoice-dollar",
+        "counters": [
+            "pendingDepositsCount"
+        ],
+        "menu_active": "admin.deposit*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Pending Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit control",
+                    "Deposit status",
+                    "Deposit activity"
+                ],
+                "title": "Pending Deposits",
+                "route_name": "admin.deposit.pending",
+                "menu_active": "admin.deposit.pending",
+                "counter": "pendingDepositsCount",
+                "params": [
+                    {
+                        "user_id": ""
+                    }
+                ]
+            },
+            {
+                "keyword": [
+                    "Approved Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit activity"
+                ],
+                "title": "Approved Deposits",
+                "route_name": "admin.deposit.approved",
+                "menu_active": "admin.deposit.approved",
+                "params": [
+                    {
+                        "user_id": ""
+                    }
+                ]
+            },
+            {
+                "keyword": [
+                    "Successful Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit activity"
+                ],
+                "title": "Successful Deposits",
+                "route_name": "admin.deposit.successful",
+                "menu_active": "admin.deposit.successful",
+                "params": [
+                    {
+                        "user_id": ""
+                    }
+                ]
+            },
+            {
+                "keyword": [
+                    "Rejected Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit activity"
+                ],
+                "title": "Rejected Deposits",
+                "route_name": "admin.deposit.rejected",
+                "menu_active": "admin.deposit.rejected",
+                "params": [
+                    {
+                        "user_id": ""
+                    }
+                ]
+            },
+            {
+                "keyword": [
+                    "Initiated Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit activity"
+                ],
+                "title": "Initiated Deposits",
+                "route_name": "admin.deposit.initiated",
+                "menu_active": "admin.deposit.initiated",
+                "params": [
+                    {
+                        "user_id": ""
+                    }
+                ]
+            },
+            {
+                "keyword": [
+                    "All Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit control",
+                    "Deposit activity"
+                ],
+                "title": "All Deposits",
+                "route_name": "admin.deposit.list",
+                "menu_active": "admin.deposit.list",
+                "params": [
+                    {
+                        "user_id": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "withdrawals": {
+        "title": "Withdrawals",
+        "icon": "la la-bank",
+        "counters": [
+            "pendingWithdrawCount"
+        ],
+        "menu_active": "admin.withdraw.data*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Pending Withdrawals",
+                    "Withdrawals",
+                    "Withdrawal management",
+                    "Withdrawal control",
+                    "Withdrawal status",
+                    "Withdrawal activity"
+                ],
+                "title": "Pending Withdrawals",
+                "route_name": "admin.withdraw.data.pending",
+                "menu_active": "admin.withdraw.data.pending",
+                "counter": "pendingWithdrawCount",
+                "params": [
+                    {
+                        "user_id": ""
+                    }
+                ]
+            },
+            {
+                "keyword": [
+                    "Approved Withdrawals",
+                    "Withdrawals",
+                    "Withdrawal management",
+                    "Withdrawal activity"
+                ],
+                "title": "Approved Withdrawals",
+                "route_name": "admin.withdraw.data.approved",
+                "menu_active": "admin.withdraw.data.approved",
+                "params": [
+                    {
+                        "user_id": ""
+                    }
+                ]
+            },
+            {
+                "keyword": [
+                    "Rejected Withdrawals",
+                    "Withdrawals",
+                    "Withdrawal management",
+                    "Withdrawal activity"
+                ],
+                "title": "Rejected Withdrawals",
+                "route_name": "admin.withdraw.data.rejected",
+                "menu_active": "admin.withdraw.data.rejected",
+                "params": [
+                    {
+                        "user_id": ""
+                    }
+                ]
+            },
+            {
+                "keyword": [
+                    "All Withdrawals",
+                    "Withdrawals",
+                    "Withdrawal management",
+                    "Withdrawal control",
+                    "Withdrawal activity"
+                ],
+                "title": "All Withdrawals",
+                "route_name": "admin.withdraw.data.all",
+                "menu_active": "admin.withdraw.data.all",
+                "params": [
+                    {
+                        "user_id": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "donations": {
+        "title": "Donations",
+        "counters": [
+            "pendingDonationCount"
+        ],
+        "icon": "la la-hand-holding-usd",
+        "menu_active": "admin.donation.*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Pending Donations",
+                    "Unapproved Donations",
+                    "Donations in Review",
+                    "Awaiting Approval"
+                ],
+                "counter": "pendingDonationCount",
+                "title": "Pending Donations",
+                "route_name": "admin.donation.pending",
+                "menu_active": "admin.donation.pending"
+            },
+            {
+                "keyword": [
+                    "Rejected Donations",
+                    "Denied Donations",
+                    "Declined Donations",
+                    "Unapproved Donations"
+                ],
+                "title": "Rejected Donations",
+                "route_name": "admin.donation.reject",
+                "menu_active": "admin.donation.reject"
+            },
+            {
+                "keyword": [
+                    "Paid Donations",
+                    "Completed Donations",
+                    "Successful Donations",
+                    "Processed Donations"
+                ],
+                "title": "Paid Donations",
+                "route_name": "admin.donation.paid",
+                "menu_active": "admin.donation.paid"
+            },
+            {
+                "keyword": [
+                    "All Donations",
+                    "Donations",
+                    "Donation Management",
+                    "Donation History"
+                ],
+                "title": "All Donation",
+                "route_name": "admin.donation.log",
+                "menu_active": "admin.donation.log"
+            }
+        ]
+    },
+    "support_ticket": {
+        "title": "Support Ticket",
+        "icon": "la la-ticket",
+        "counters": [
+            "pendingTicketCount"
+        ],
+        "menu_active": "admin.ticket*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Pending Ticket",
+                    "Support Ticket",
+                    "Ticket management",
+                    "Ticket control",
+                    "Ticket status",
+                    "Ticket activity"
+                ],
+                "title": "Pending Ticket",
+                "route_name": "admin.ticket.pending",
+                "menu_active": "admin.ticket.pending",
+                "counter": "pendingTicketCount"
+            },
+            {
+                "keyword": [
+                    "Closed Ticket",
+                    "Support Ticket",
+                    "Ticket management",
+                    "Ticket activity"
+                ],
+                "title": "Closed Ticket",
+                "route_name": "admin.ticket.closed",
+                "menu_active": "admin.ticket.closed"
+            },
+            {
+                "keyword": [
+                    "Answered Ticket",
+                    "Support Ticket",
+                    "Ticket management",
+                    "Ticket activity"
+                ],
+                "title": "Answered Ticket",
+                "route_name": "admin.ticket.answered",
+                "menu_active": "admin.ticket.answered"
+            },
+            {
+                "keyword": [
+                    "All Ticket",
+                    "Support Ticket",
+                    "Ticket management",
+                    "Ticket control",
+                    "Ticket activity"
+                ],
+                "title": "All Ticket",
+                "route_name": "admin.ticket.index",
+                "menu_active": "admin.ticket.index"
+            }
+        ]
+    },
+    "report": {
+        "title": "Report",
+        "icon": "la la-list",
+        "menu_active": "admin.report*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Transaction Log",
+                    "Transaction Report",
+                    "Transaction History",
+                    "Transaction Activity",
+                    "Balance Sheet",
+                    "Balance Log",
+                    "Balance History"
+                ],
+                "title": "Transaction Log",
+                "route_name": "admin.report.transaction",
+                "menu_active": [
+                    "admin.report.transaction",
+                    "admin.report.transaction.search"
+                ]
+            },
+            {
+                "keyword": [
+                    "Login History",
+                    "Login Report",
+                    "Login Activity",
+                    "User Login History"
+                ],
+                "title": "Login History",
+                "route_name": "admin.report.login.history",
+                "menu_active": [
+                    "admin.report.login.history",
+                    "admin.report.login.ipHistory"
+                ]
+            },
+            {
+                "keyword": [
+                    "Download Log",
+                    "Download Report",
+                    "File Downloads",
+                    "Download Activity"
+                ],
+                "title": "Download Log",
+                "route_name": "admin.report.download.log",
+                "menu_active": "admin.report.download.log"
+            },
+            {
+                "keyword": [
+                    "Purchased Plans",
+                    "Plan Purchases",
+                    "Subscription Plans",
+                    "Plan Activity"
+                ],
+                "title": "Purchased Plans",
+                "route_name": "admin.report.plan.purchased",
+                "menu_active": "admin.report.plan.purchased"
+            },
+            {
+                "keyword": [
+                    "Contributor's Earnings",
+                    "Contributor Earnings",
+                    "Earnings Report",
+                    "Contributor Report"
+                ],
+                "title": "Contributor's Earnings",
+                "route_name": "admin.report.contributor.earnings",
+                "menu_active": "admin.report.contributor.earnings"
+            },
+            {
+                "keyword": [
+                    "User's Image Collection",
+                    "User Image Collection",
+                    "Image Collections",
+                    "User Images"
+                ],
+                "title": "User's Image Collection",
+                "route_name": "admin.report.user.image.collections",
+                "menu_active": "admin.report.user.image.collections"
+            },
+            {
+                "keyword": [
+                    "Notification History",
+                    "Notification Report",
+                    "Notifications",
+                    "Notification Activity",
+                    "Email History",
+                    "Email Log",
+                    "SMS History",
+                    "SMS Log",
+                    "Push Notification History",
+                    "Push Notification Log"
+                ],
+                "title": "Notification History",
+                "route_name": "admin.report.notification.history",
+                "menu_active": "admin.report.notification.history"
+            }
+        ]
+    },
+
+    "system_setting": {
+        "keyword": [
+            "System Setting",
+            "setting",
+            "System configuration",
+            "System preferences",
+            "Configuration management",
+            "System setup"
+        ],
+        "title": "System Setting",
+        "icon": "las la-life-ring",
+        "route_name": "admin.setting.system",
+        "menu_active": [
+            "admin.setting.system",
+            "admin.setting.general",
+            "admin.setting.socialite.credentials",
+            "admin.cron*",
+            "admin.setting.system.configuration",
+            "admin.setting.logo.icon",
+            "admin.extensions.index",
+            "admin.language.manage",
+            "admin.language.key",
+            "admin.seo",
+            "admin.kyc.setting",
+            "admin.frontend.templates",
+            "admin.frontend.manage.*",
+            "admin.maintenance.mode",
+            "admin.setting.cookie",
+            "admin.setting.custom.css",
+            "admin.setting.sitemap",
+            "admin.setting.robot",
+            "admin.setting.notification.global.email",
+            "admin.setting.notification.global.sms",
+            "admin.setting.notification.global.push",
+            "admin.setting.notification.email",
+            "admin.setting.notification.sms",
+            "admin.setting.notification.push",
+            "admin.setting.notification.templates",
+            "admin.setting.notification.template.edit",
+            "admin.frontend.index",
+            "admin.frontend.sections*",
+            "admin.gateway*",
+            "admin.withdraw.method*",
+       
+            "admin.setting.ftp",
+            "admin.donation.setting.index"
+        ]
+    },
+    "extra": {
+        "title": "Extra",
+        "icon": "la la-server",
+        "menu_active": "admin.system*",
+        "counters": [
+            "updateAvailable"
+        ],
+        "submenu": [
+            {
+                "keyword": [
+                    "Application",
+                    "System",
+                    "Application management",
+                    "Application settings",
+                    "System information",
+                    "version",
+                    "laravel",
+                    "timezone"
+                ],
+                "title": "Application",
+                "route_name": "admin.system.info",
+                "menu_active": "admin.system.info"
+            },
+            {
+                "keyword": [
+                    "Server",
+                    "System",
+                    "Server management",
+                    "Server settings",
+                    "System information",
+                    "version",
+                    "php version",
+                    "software",
+                    "ip address",
+                    "server ip address",
+                    "server port",
+                    "http host"
+                ],
+                "title": "Server",
+                "route_name": "admin.system.server.info",
+                "menu_active": "admin.system.server.info"
+            },
+            {
+                "keyword": [
+                    "Cache",
+                    "System",
+                    "Cache management",
+                    "Cache optimization",
+                    "System performance",
+                    "clear cache"
+                ],
+                "title": "Cache",
+                "route_name": "admin.system.optimize",
+                "menu_active": "admin.system.optimize"
+            },
+            {
+                "keyword": [
+                    "Update",
+                    "System",
+                    "Update management",
+                    "System update",
+                    "Software updates",
+                    "version update",
+                    "upgrade",
+                    "latest version"
+                ],
+                "title": "Update",
+                "route_name": "admin.system.update",
+                "menu_active": "admin.system.update*",
+                "counter": "updateAvailable"
+            }
+        ]
+    },
+    "report_and_request": {
+        "keyword": [
+            "Report & Request",
+            "Report and Request",
+            "Reports and Requests",
+            "Reporting and Requests",
+            "Report management",
+            "Request management",
+            "feature request",
+            "bug report"
+        ],
+        "title": "Report & Request",
+        "icon": "las la-bug",
+        "route_name": "admin.request.report",
+        "menu_active": "admin.request.report"
+    }
+}

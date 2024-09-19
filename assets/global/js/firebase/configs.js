@@ -1,0 +1,1 @@
+var firebaseConfig = {"apiKey":"AIzaSyBZM46BExdqBKafQ0eoON6eWKBFXZQdAJk","authDomain":"push-5f0b1.firebaseapp.com","projectId":"push-notification-295e8","storageBucket":"push-5f0b1.appspot.com","messagingSenderId":"282067998104","appId":"1:686517081317:web:e307b7a49995751c32b00c","measurementId":"G-T0YE3RHJE6"}
